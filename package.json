@@ -1,0 +1,9 @@
+{
+  "name": "Magma",
+  "version": "0.1.0",
+  "main": "main.js",
+  "dependencies": {
+    "electron-reload": "^1.2.2",
+    "snoowrap": "^1.15.1"
+  }
+}
