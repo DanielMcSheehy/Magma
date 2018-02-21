@@ -23,11 +23,11 @@ r.getHot().then(listing => {
 		p.expandReplies({limit: 2, depth: 1}).then(obj => { // depth: parent, limit: branches
 				//console.log('post: ', p.id);
 				var title = obj.title;
-
+				
 				var replies = obj.comments.map(function(comments){ // TODO: username
-					return {'body': comments.body, 'name': comments.name, 'score': comments.score, 'replies': comments.replies};
+					return {'body': comments.body, 'name': comments.author.name, 'score': comments.score, 'replies': comments.replies};
 				});
-				console.log(replies);
+				//console.log(replies);
 				
 				var data = {
 					'_id': p.id, 
