@@ -28,7 +28,26 @@ h1 {
 .object a:link{
 	color: #ffffff;
 	text-decoration: none;
-
 	padding-top: 10px;
-
+}
+.post_wrapper {
+ margin-left: 1.5%;
+}
+.added {
+	margin-top: 9px;
+	background-color: black;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	width: 80%;
+	padding: 5px;
+	font-size: 1em;
+}
+  .name-tag {
+	color: #00ff00;
+}
+  .score-tag {
+	color: #0057e7;
+	float: left;
+	margin-right: 5px;
 }
