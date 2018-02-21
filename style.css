@@ -28,7 +28,48 @@ h1 {
 .object a:link{
 	color: #ffffff;
 	text-decoration: none;
-
 	padding-top: 10px;
-
 }
+.post_wrapper {
+ margin-left: 1.5%;
+}
+.post-header {
+	margin: 2%;
+	background: #2c2f33;
+	color: #ffffff;
+	width: 80%;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 13%;
+	text-align: center;
+	border-radius: 3px;
+}
+.added {
+	margin-bottom: 9px;
+	background-color: black;
+	color: white;
+	border-radius: 4px;
+	text-align: center;
+	width: 80%;
+	padding: 5px;
+	font-size: 1em;
+}
+  .name-tag {
+	color: #00ff00;
+}
+  .score-tag {
+	color: #0057e7;
+	float: left;
+	margin-right: 5px;
+	margin-left: 4px;
+}
+.thumbnail {
+	background-color: #7289da;
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin-top: 10px;
+	margin-left: 15px;
+	float: left;
+	box-shadow: 2px px black;
+  }
